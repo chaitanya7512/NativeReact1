@@ -125,8 +125,8 @@ dependencies {
 }
 
 // build.gradle (root or module-level)
-tasks.withType(JavaCompile) {
-    sourceCompatibility = '11'
-    targetCompatibility = '11'
+java {
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
 }
 
